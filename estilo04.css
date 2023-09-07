@@ -1,0 +1,15 @@
+.numero{
+    color: blue;
+    width: 100px;
+}
+/* odd= impar / even= par*/
+
+.numero li:nth-child(odd){
+    background-color: red;
+}
+.numero li:nth-child(even){
+    background-color: blueviolet;
+}
+.numero li:hover{
+    font-weight: bolder;
+}
